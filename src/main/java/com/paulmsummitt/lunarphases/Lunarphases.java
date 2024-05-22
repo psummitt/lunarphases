@@ -14,6 +14,6 @@ public class Lunarphases {
     
     
     public static void main(String[] args) {
-        Lunarphases();
+        
     }
 }
