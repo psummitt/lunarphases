@@ -1,0 +1,23 @@
+JFDML JFormDesigner: "8.2.3.0.386" Java: "17.0.8" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:21:p, comp dateLabel:::p::p, space s:::p, comp dateButton:::p::p, space ::215:x}}"
+			"$verticalGroup": "par l {seq l {space :p:21:p, par b {comp dateLabel::b:p::p, comp dateButton::b:p::p}, space ::252:x}}"
+		} ) {
+			name: "this"
+			"defaultCloseOperation": 3
+			"title": "Lunar Phases"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "dateLabel"
+				"text": "Choose Date:"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "dateButton"
+				"text": "Date"
+			} )
+		}, new FormLayoutConstraints( null ) )
+	}
+}
